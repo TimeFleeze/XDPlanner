@@ -3,9 +3,12 @@
 
 # 配置
 - "@craco/craco": "^5.9.0"
-- "antd": "^4.13.0"
 - "craco-less": "^1.17.0"
+- "antd": "^4.13.0"
 - "echarts": "^5.3.2"
 - "react": "^16.14.0"
 - "react-router-dom": "^6.2.2"
 - node: v14.18.1
+
+# 技术栈
+
