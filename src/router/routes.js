@@ -3,6 +3,7 @@ import Home from '../pages/Home'
 import FirstPage from '../pages/FirstPage'
 import SecondPage from '../pages/SecondPage'
 import ThirdPage from '../pages/ThirdPage'
+import FourthPage from '../pages/FourthPage'
 import { Navigate } from 'react-router-dom'
 import React from 'react'
 
@@ -26,6 +27,10 @@ const routes = [
       {
         path: 'Thirdpage',
         element: <ThirdPage />,
+      },
+      {
+        path: 'Fourthpage',
+        element: <FourthPage />,
       },
       {
         path: '',

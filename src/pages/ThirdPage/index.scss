@@ -1,0 +1,45 @@
+.df-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 300px);
+  width: 80%;
+  margin-left: 40px;
+  justify-content: flex-start;
+  align-content: space-around;
+
+  .item {
+    flex: 1;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    height: 200px;
+    background-color: white;
+    width: calc((100% - 80px) / 4);
+    min-width: calc((100% - 80px) / 4);
+    max-width: calc((100% - 80px) / 4);
+
+    // &:nth-child(4n) { // 去除第3n个的margin-right
+    //   margin-right: 0;
+    // }
+  }
+
+  .add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.solverfooter {
+  //height: 80px;
+  margin: 16px 10% 16px 10%;
+  // background-color: blue;
+}
+
+.header {
+  height: 80px;
+  margin: 32px 10% 0 10%;
+  padding-left: 30px;
+  // background-color: blue;
+}

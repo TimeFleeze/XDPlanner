@@ -82,7 +82,6 @@ function FirstPage () {
         return (
           <div>
 
-
             <Popconfirm title="确定删除?" onConfirm={handledelete(record.id)}>
               <a>删除</a>
             </Popconfirm>
@@ -194,6 +193,7 @@ function FirstPage () {
   const solve = () => {
     setSunbrustdata(initialdata)
   }
+
   return (
 
     <div className="site-layout-background">
